@@ -1,5 +1,5 @@
 ---
-title: 学习笔记 | ChatGPT Prompt Engineering for Developers 01-02
+title: 学习笔记 | Prompt Engineering 01-02
 pubDate: 2023-04-25 18:00:00.0
 updated: 2023-04-25 18:00:00.0
 categories: ['学习笔记']
@@ -9,7 +9,7 @@ description: ' '
 
 # Guidelines for Prompting
 
-笔者注: 新技术每个人掌握的程度参差不齐，既有可以开发`autoGPT`的大佬，也有一key难求的小白。整个视频课程看下来对于我个人而言有一些收获但是不多，可能因为内容虽然官方背书但是不够深入。我把课程中我觉得有价值的部分做了些摘要，可供读者快速参阅。
+笔者注: 新技术每个人掌握的程度参差不齐，既有可以开发`agent`的大佬，也有一key难求的小白。整个视频课程看下来对于我个人而言有一些收获但是不多，可能因为内容虽然官方背书但是不够深入。我把课程中我觉得有价值的部分做了些摘要，可供读者快速参阅。
 
 ## Types of Large Language Models
 
@@ -103,8 +103,7 @@ the most intricate tapestry begins with a solitary thread.
 <child>: Teach me about resilience.
 """
 ```
-']
-description: ' '
+
 ---
 
 ### 02 Give the model time to think

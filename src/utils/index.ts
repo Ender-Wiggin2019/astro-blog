@@ -42,6 +42,10 @@ export function formatDate(date: Date) {
   const year = date.getFullYear().toString().padStart(4, '0')
   const month = (date.getMonth() + 1).toString().padStart(2, '0')
   const day = date.getDate().toString().padStart(2, '0')
-  
+
   return `${year}-${month}-${day}`
+}
+
+export function getPathFromCategory(category: string, category_map: {name: string, path: string}[]) {
+  return category_map.filter(l => l.name === category)[0].path;
 }

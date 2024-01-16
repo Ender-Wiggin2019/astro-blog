@@ -1,7 +1,24 @@
 ---
 import LayoutDefault from "~/layouts/LayoutDefault.astro"
+// import { getEntry } from 'astro:content';
+
+// const entry = await getEntry('about', 'me');
+
+// const { Content, headings } = await entry.render();
+import ListItem from '~/components/ListItem.astro'
+import ListSection from '~/components/ListSection.astro'
+import { getCategories, getPathFromCategory } from '~/utils/index'
+
+const { translate: t } = Astro.locals
+const { category_map } = Astro.locals.config;
+const categories = await getCategories()
 ---
 
 <LayoutDefault>
-  
+    <!-- <h1 class="post-title!">关于我</h1>
+<p>我是Ender，欢迎来到我的博客。</p>
+<div class="mb-8"></div>
+<ListSection title={t('Categories')}>
+    {Array.from(categories).map(([key, value]) => <ListItem title={key} href={`/categories/${getPathFromCategory(key, category_map)}`} description={t('categories_count', value.length)} />)}
+  </ListSection> -->
 </LayoutDefault>

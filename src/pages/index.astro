@@ -3,6 +3,12 @@ import LayoutDefault from '~/layouts/LayoutDefault.astro'
 import Post from '~/components/Post.astro'
 import { getPosts, getPostDescription } from '~/utils'
 import Pagination from '~/components/Pagination.astro'
+import ListItem from '~/components/ListItem.astro'
+import ListSection from '~/components/ListSection.astro'
+import { getCategories, getPathFromCategory } from '~/utils/index'
+
+const { category_map } = Astro.locals.config;
+const categories = await getCategories()
 
 const posts = (await getPosts()).slice(0, 5)
 
@@ -11,6 +17,15 @@ const { translate: t } = Astro.locals
 ---
 
 <LayoutDefault>
+  <h1 class="post-title!">关于我</h1>
+  <p>我是Ender，欢迎来到我的博客。</p>
+  <div class="mb-8"></div>
+  <ListSection title={t('Categories')}>
+      {Array.from(categories).map(([key, value]) => <ListItem title={key} href={`/categories/${getPathFromCategory(key, category_map)}`} description={t('categories_count', value.length)} />)}
+    </ListSection>
+
+  <div class="mb-8"></div>
+
   <section contain-layout un-flex="~ col gap-7.5">
     {
       posts.map((post) => (

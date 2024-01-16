@@ -54,6 +54,8 @@ export default defineConfig({
     transformerDirectives(),
   ],
   safelist: [
-    ...socials.map((social) => `i-mdi-${social.name}`),
+    ...socials.filter(s => s.name !== 'bilibili').map((social) => `i-mdi-${social.name}`),
+    'fa-bilibili',
+    'fa-brands'
   ],
 })

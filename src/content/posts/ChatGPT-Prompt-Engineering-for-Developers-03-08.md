@@ -1,5 +1,5 @@
 ---
-title: 学习笔记 | ChatGPT Prompt Engineering for Developers 03-08
+title: 学习笔记 | Prompt Engineering 03-08
 pubDate: 2023-04-25 20:00:00.0
 updated: 2023-04-25 20:00:00.0
 categories: ['学习笔记']
@@ -12,7 +12,7 @@ description: ' '
 ![CleanShot 2023-04-29 at 02.19.18@2x.png](https://ender-picgo.oss-cn-shenzhen.aliyuncs.com/img/CleanShot%202023-04-29%20at%2002.19.18%402x.png)
 
 - 其实就是一步步迭代prompt
-- 例如给prompt加上更多的限制: 篇幅( words, sentences, characters limitation), 输出内容, 输出格式...
+- 例如给prompt加上更多的限制: 篇幅(words, sentences, characters limitation), 输出内容, 输出格式...
 
 ## 04 Summarizing
 
@@ -39,8 +39,7 @@ delivery. Limit to 30 words.
 Review: <prod_review>
 """
 ```
-']
-description: ' '
+
 ---
 
 ## 05 Inferring
@@ -78,8 +77,7 @@ Format the Anger value as a boolean.
 Review text: '''{lamp_review}'''
 """
 ```
-']
-description: ' '
+
 ---
 
 ## 06 Transforming
@@ -103,8 +101,7 @@ description: ' '
 - such as `Translate the following python dictionary from JSON to an HTML`
 
 ### Spellcheck/Grammar check
-']
-description: ' '
+
 ---
 
 ## 07 Expanding
@@ -132,8 +129,7 @@ Review sentiment: {sentiment}
 ```
 
 - `temerature`越高，输出结果越随机 ![CleanShot 2023-04-29 at 21.45.15@2x.png](https://ender-picgo.oss-cn-shenzhen.aliyuncs.com/img/CleanShot%202023-04-29%20at%2021.45.15%402x.png)
-']
-description: ' '
+
 ---
 
 ## 08 Chatbot

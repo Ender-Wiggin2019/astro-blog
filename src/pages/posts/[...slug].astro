@@ -1,5 +1,6 @@
 ---
 import Post from '~/components/Post.astro'
+import PostComments from '~/components/Comments.astro'
 import LayoutDefault from '~/layouts/LayoutDefault.astro'
 import { getPosts } from '~/utils'
 import type { InferGetStaticPropsType, GetStaticPaths } from 'astro'
@@ -28,6 +29,7 @@ const { translate: t} = Astro.locals
 <LayoutDefault title={entry.data.title} desc={entry.data.description}>
   <Post post={entry}>
     <Content />
+    <PostComments />
   </Post>
   <Pagination
       showLeft={Boolean(prev)}
@@ -83,14 +85,14 @@ const { translate: t} = Astro.locals
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #3730a3;
+    background-color: #dfdfdf;
     padding: 0.25rem 0.5rem;
     font-size: 0.75rem;
     line-height: 1rem;
-    border-radius: 0 0 0 0.25rem;
+    border-radius: 0 0 0 0.5rem;
   }
 
   .copy-code:hover {
-    background-color: #312e81;
+    background-color: #8b8b8b;
   }
 </style>

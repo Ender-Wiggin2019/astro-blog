@@ -15,26 +15,26 @@ export const THEME_CONFIG: App.Locals['config'] = {
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/Ender-Wiggin2019",
     },
     {
       name: "rss",
       href: "/atom.xml",
     },
     {
-      name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      name: "bilibili",
+      href: "https://space.bilibili.com/12411973",
     },
     {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      name: "email",
+      href: "mailto:117010097@link.cuhk.edu.cn",
     }
   ],
   /** your navigation links */
   navs: [
     {
       name: "Posts",
-      href: "/posts/page/1",
+      href: "/",
     },
     {
       name: "Archive",
@@ -48,6 +48,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
       name: "About",
       href: "/about",
     },
+  ],
+  category_map: [
+    {name: "学习笔记", path: "notes"},
+    {name: "所思所想", path: "thoughts"},
+    {name: "文学影视", path: "reviews"},
+    {name: "桌游相关", path: "boardgames"},
   ]
 }
 

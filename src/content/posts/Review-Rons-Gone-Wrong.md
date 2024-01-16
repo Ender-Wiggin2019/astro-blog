@@ -1,5 +1,5 @@
 ---
-title: 影评 | 《Ron's Gone Wrong》：有趣的概念，不成熟的实现
+title: 影评 | 《Ron's Gone Wrong》
 pubDate: 2022-01-03 22:00:00.0
 updated: 2022-01-03 22:00:00.0
 categories: ['文学影视']
