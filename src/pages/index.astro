@@ -27,6 +27,7 @@ const { translate: t } = Astro.locals
   <div class="mb-8"></div>
 
   <section contain-layout un-flex="~ col gap-7.5">
+    <ListSection title={t('Posts')} >
     {
       posts.map((post) => (
         <Post post={post}>
@@ -34,6 +35,7 @@ const { translate: t } = Astro.locals
         </Post>
       ))
     }
+    </ListSection>
     <Pagination showLeft={false} showPageCount={false} rightTitle={t('all_posts')} rightUrl={'posts/page/1'} />
   </section>
 </LayoutDefault>
