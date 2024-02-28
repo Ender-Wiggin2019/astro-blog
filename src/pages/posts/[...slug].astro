@@ -44,8 +44,9 @@ const { translate: t} = Astro.locals
 
 
 <script>
-  const copyButtonLabel = "Copy";
   const codeBlocks = Array.from(document.querySelectorAll("pre"));
+  const oriDiv = "<div class='i-mdi-content-copy icon text-white'></div>";
+  const copiedDiv = "<div class='i-mdi-check icon text-white'></div>";
 
   for (let codeBlock of codeBlocks) {
     let wrapper = document.createElement("div");
@@ -53,7 +54,7 @@ const { translate: t} = Astro.locals
 
     let copyButton = document.createElement("button");
     copyButton.className = "copy-code";
-    copyButton.innerHTML = copyButtonLabel;
+    copyButton.innerHTML = oriDiv;
 
     codeBlock.setAttribute("tabindex", "0");
     codeBlock.appendChild(copyButton);
@@ -72,10 +73,10 @@ const { translate: t} = Astro.locals
 
     await navigator.clipboard.writeText(text ?? "");
 
-    button.innerText = "Code Copied";
+    button.innerHTML = copiedDiv;
 
     setTimeout(() => {
-      button.innerText = copyButtonLabel;
+      button.innerHTML = oriDiv;
     }, 700);
   }
 </script>
@@ -83,16 +84,21 @@ const { translate: t} = Astro.locals
 <style is:global>
   .copy-code {
     position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #dfdfdf;
-    padding: 0.25rem 0.5rem;
+    top: 0.25rem;
+    right: 0.25rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(0, 0, 0, 0);
+    padding: 0.25rem 0.25rem;
     font-size: 0.75rem;
     line-height: 1rem;
-    border-radius: 0 0 0 0.5rem;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .copy-code:hover {
-    background-color: #8b8b8b;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 </style>

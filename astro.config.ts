@@ -12,7 +12,7 @@ export default defineConfig({
     shikiConfig: {
       // 选择 Shiki 内置的主题（或添加你自己的主题）
       // https://github.com/shikijs/shiki/blob/main/docs/themes.md
-      theme: 'one-dark-pro',
+      theme: 'github-dark',
       // 另外，也提供了多种主题
       // https://shikiji.netlify.app/guide/dual-themes#light-dark-dual-themes
       // experimentalThemes: {
