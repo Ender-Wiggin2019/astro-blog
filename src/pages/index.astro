@@ -27,7 +27,7 @@ const { translate: t } = Astro.locals
   <div class="mb-8"></div>
 
   <section contain-layout un-flex="~ col gap-7.5">
-    <ListSection title={t('Posts')} >
+    <ListSection title="近期文章" >
     {
       posts.map((post) => (
         <Post post={post}>
