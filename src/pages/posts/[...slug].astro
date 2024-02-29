@@ -45,8 +45,8 @@ const { translate: t} = Astro.locals
 
 <script>
   const codeBlocks = Array.from(document.querySelectorAll("pre"));
-  const oriDiv = "<div class='i-mdi-content-copy icon text-white'></div>";
-  const copiedDiv = "<div class='i-mdi-check icon text-white'></div>";
+  const oriDiv = "<div class='mdi--content-copy icon text-white'></div>";
+  const copiedDiv = "<div class='mdi--check icon text-white'></div>";
 
   for (let codeBlock of codeBlocks) {
     let wrapper = document.createElement("div");

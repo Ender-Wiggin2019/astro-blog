@@ -55,8 +55,5 @@ export default defineConfig({
   ],
   safelist: [
     ...socials.filter(s => s.name !== 'bilibili').map((social) => `i-mdi-${social.name}`),
-    'fa-bilibili',
-    'fa-brands',
-    'mdi-content-copy'
   ],
 })

@@ -36,7 +36,7 @@ const { translate: t } = Astro.locals
     <ul un-flex="~ row gap-1 justify-center">
       {
         socials.map((soc) => {
-          const cls = soc.name === 'bilibili' ? 'icon fa-brands fa-bilibili' : `icon i-mdi-${soc.name}`;
+          const cls = soc.name === 'bilibili' ? 'simple-icons--bilibili' : `icon i-mdi-${soc.name}`;
           return (
           <li>
             <a href={soc.href} target="_blank" title={soc.name} class={cls} />
