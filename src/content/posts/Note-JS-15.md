@@ -3,7 +3,7 @@ title: 学习笔记 | JS 高级程序设计-第15章-DOM扩展
 pubDate: 2024-02-01 21:00:00.0
 updated: 2024-02-01 21:00:00.0
 categories: ['学习笔记']
-tags: ['TS',  '网站开发']
+tags: ['TS',  'Web开发']
 description: ' '
 ---
 # DOM 扩展

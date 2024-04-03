@@ -3,7 +3,7 @@ title: 学习笔记 | LangChain Expression Language
 pubDate: 2023-11-22 21:03:00.0
 updated: 2023-11-22 21:03:00.0
 categories: ['学习笔记']
-tags: ['网站开发', 'Python']
+tags: ['Web开发', 'Python']
 description: ' '
 ---
 # `Runnable` protocol

@@ -3,7 +3,7 @@ title: "学习笔记 | Poetry: Python 包管理器"
 pubDate: 2023-11-22 21:00:00.0
 updated: 2023-11-22 21:00:00.0
 categories: ['学习笔记']
-tags: ['网站开发', 'Python']
+tags: ['Web开发', 'Python']
 description: ' '
 ---
 ## 依赖组

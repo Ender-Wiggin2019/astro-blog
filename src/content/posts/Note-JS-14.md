@@ -3,7 +3,7 @@ title: 学习笔记 | JS 高级程序设计-第14章-DOM
 pubDate: 2023-12-09 21:02:00.0
 updated: 2023-12-09 21:02:00.0
 categories: ['学习笔记']
-tags: ['TS',  '网站开发']
+tags: ['TS',  'Web开发']
 description: ' '
 ---
 # DOM

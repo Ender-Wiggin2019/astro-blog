@@ -3,7 +3,7 @@ title: 学习笔记 | JS 高级程序设计-第11章-异步
 pubDate: 2023-11-22 21:01:00.0
 updated: 2023-11-22 21:01:00.0
 categories: ['学习笔记']
-tags: ['TS',  '网站开发']
+tags: ['TS',  'Web开发']
 description: ' '
 ---
 ## 起源

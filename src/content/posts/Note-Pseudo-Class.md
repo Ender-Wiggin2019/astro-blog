@@ -3,7 +3,7 @@ title: 学习笔记 | 函数式伪类
 pubDate: 2024-03-02 22:00:00.0
 updated: 2024-03-02 22:00:00.0
 categories: ['学习笔记']
-tags: ['TS',  '网站开发']
+tags: ['TS',  'Web开发']
 description: ' '
 ---
 
