@@ -1,7 +1,7 @@
 ---
 title: 学习笔记 | React-DnD 预览层实现的两种方案
-pubDate: 2024-03-18 22:03:00.0
-updated: 2024-03-18 22:03:00.0
+pubDate: 2024-03-31 22:03:00.0
+updated: 2024-03-31 22:03:00.0
 categories: ['学习笔记']
 tags: ['Web开发']
 description: 'React-DnD 中如果想要修改拖拽中的预览元素会非常麻烦，这篇文章将总结一下通用性的实现方案。'
@@ -32,7 +32,7 @@ function DraggableHouse({ connectDragSource, connectDragPreview }) {
 
 Stackoverflow 中有一篇很好的回答解释了具体的[实现方案](https://stackoverflow.com/a/70320222)。我将对其中的实现展开说明一下。
 
-从架构上来说，大致分为一下几步：
+从架构上来说，大致分为以下几步：
 
 1. 定义全局的 `<CustomDragLayer />` 组件。这个组件将会覆盖**所有** Dnd 上下文中的预览效果。因此需要谨慎设计这个组件的架构。
 
