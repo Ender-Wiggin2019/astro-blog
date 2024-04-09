@@ -165,7 +165,7 @@ const DragItem: React.FC<DragItemProps> = ({ item }) => {
   // 清除默认拖拽效果
   useEffect(() => {
     dragPreview(getEmptyImage(), { captureDraggingState: true });
-  }, []);
+  }, [dragPreview]); // 配置依赖性，避免一开始的时候没有去除默认效果
 
   return (
     <div
