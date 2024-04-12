@@ -213,4 +213,5 @@ f.apply({ ...scope, define });
 整个流程主要是在浏览器中通过`monaco-editor`的API和TypeScript的工作线程（`Worker`）来完成TypeScript代码到JavaScript代码的转换。
 
 ## 未来工作
+
 一般主流的react浏览器端编译是靠 `babel/standlone` 实现的（例如[obsidian-react插件](https://github.com/elias-sundqvist/obsidian-react-components)），但是在项目源码中没有看到相关操作，待后续调研。

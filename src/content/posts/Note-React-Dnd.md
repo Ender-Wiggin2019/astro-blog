@@ -1,5 +1,5 @@
 ---
-title: 学习笔记 | React-DnD 预览层实现的两种方案
+title: React-DnD 预览层实现的两种方案
 pubDate: 2024-03-31 22:03:00.0
 updated: 2024-03-31 22:03:00.0
 categories: ['学习笔记']
