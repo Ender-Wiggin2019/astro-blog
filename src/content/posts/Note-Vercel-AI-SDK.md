@@ -85,7 +85,7 @@ export default function Chat() {
 
 ## 流式
 
-流式输出的优点就不赘述了，我们之间看源码。
+流式输出的优点就不赘述了，我们直接看源码。
 
 ```ts
 export function OpenAIStream(
@@ -439,7 +439,7 @@ export function createStreamableUI(initialValue?: React.ReactNode) {
 }
 ```
 
-#### 嵌套UI流
+### 嵌套UI流
 
 可以在StockCard中套一层HistoryChart，同时异步更新:
 
