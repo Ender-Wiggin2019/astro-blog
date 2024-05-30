@@ -185,3 +185,15 @@ const DragItem: React.FC<DragItemProps> = ({ item }) => {
         <CustomDragLayer />
       </DndProvider>
 ```
+
+### fixed定位问题
+
+在后续的开发中，还遇到一个比较奇怪的问题，即拖拽之后定位并没有严格跟随鼠标，而是有一段偏移。这是由于 `fixed` 定位虽然是相对于浏览器视口的，但是会被 `transform` 影响导致。`fixed` 定位的元素将相对于最近的已转换祖先元素进行定位，而不是整个视口。这是因为 `transform` 属性创建了一个新的包含块（containing block），对于 `fixed` 定位的元素而言，这个新的包含块就像是它的视口。
+
+**因此按照最佳实践，只需要将这个预览层放在根节点就可以了。**
+
+但是在项目实操中，由于一些组件的解耦不到位，可能会导致组件受到上下文影响必须放置在某个更深的树节点中，这种情况下就会被 `transform` 影响定位了。解决方案是使用 React Portal 将节点挂载到 `body` 中。用法即：
+
+```tsx
+ReactDOM.createPortal(child, container)
+```
