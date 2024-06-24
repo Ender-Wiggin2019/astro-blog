@@ -1,7 +1,7 @@
 ---
 title: 基于 React-DnD 的通用拖拽库设计方案
-pubDate: 2024-03-31 22:03:00.0
-updated: 2024-03-31 22:03:00.0
+pubDate: 2024-06-24 22:03:00.0
+updated: 2024-06-24 22:03:00.0
 categories: ['学习笔记']
 tags: ['Web开发']
 description: 'React-DnD 中如果想要修改拖拽中的预览元素会非常麻烦，这篇文章将总结一下通用性的实现方案。'
