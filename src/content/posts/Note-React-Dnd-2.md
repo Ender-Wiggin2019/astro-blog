@@ -4,7 +4,7 @@ pubDate: 2024-06-24 22:03:00.0
 updated: 2024-06-24 22:03:00.0
 categories: ['学习笔记']
 tags: ['Web开发']
-description: 'React-DnD 中如果想要修改拖拽中的预览元素会非常麻烦，这篇文章将总结一下通用性的实现方案。'
+description: '本文是对于我之前的文章的更新，将一个小需求封装为一个工具库。'
 ---
 
 本文是对于我之前的文章[React-DnD 预览层实现的两种方案](https://blog.ender-wiggin.com/posts/note-react-dnd/)的更新，将一个小需求扩大为一个工具库。
