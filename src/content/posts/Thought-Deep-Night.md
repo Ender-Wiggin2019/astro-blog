@@ -1,10 +1,17 @@
+<!--
+ * @Author: Ender-Wiggin
+ * @Date: 2024-07-30 00:38:00
+ * @LastEditors: Ender-Wiggin
+ * @LastEditTime: 2024-08-20 00:14:26
+ * @Description:
+-->
 ---
 title: 所思所想 | 深夜
 pubDate: 2024-07-30 01:00:00.0
 updated: 2024-07-30 01:00:00.0
 categories: ['所思所想']
 tags: ['随笔']
-description: ''
+description: ' '
 ---
 
 刚换了新工作，又是一个人从仅开了 一排灯的大办公室迈入寻常的深夜。10点的公司健身房甚至也还有2个人，还依稀听到一个私教说他11点还要去带一个字节下班的人健身，无尽的夜幕中似乎总点缀着些许飘零的过客。
