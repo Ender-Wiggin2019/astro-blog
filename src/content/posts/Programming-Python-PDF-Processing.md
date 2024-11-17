@@ -1,5 +1,5 @@
 ---
-title: 学习笔记 | 使用Python对PDF进行处理
+title: 技术 | 使用Python对PDF进行处理
 pubDate: 2023-07-08 18:00:00.0
 updated: 2023-07-08 18:00:00.0
 categories: ['学习笔记']

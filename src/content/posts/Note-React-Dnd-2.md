@@ -1,5 +1,5 @@
 ---
-title: 基于 React-DnD 的通用拖拽库设计方案
+title: 技术 | 基于 React-DnD 的通用拖拽库设计方案
 pubDate: 2024-06-24 22:03:00.0
 updated: 2024-06-24 22:03:00.0
 categories: ['学习笔记']

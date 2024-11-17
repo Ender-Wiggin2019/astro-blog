@@ -1,5 +1,5 @@
 ---
-title: 个人 Ubuntu 装机配置记录
+title: 技术 | 个人 Ubuntu 装机配置记录
 pubDate: 2024-07-05 22:03:00.0
 updated: 2024-07-05 22:03:00.0
 categories: ['学习笔记']
