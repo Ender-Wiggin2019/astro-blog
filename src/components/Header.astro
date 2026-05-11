@@ -19,7 +19,13 @@ const { translate: t } = Astro.locals
   >
     <a class="normal" href="/">
       <!-- <h3 class="text-5 font-extrabold font-serif">{author}</h3> -->
-      <h1 class="text-8 font-extrabold font-serif flex justify-center items-center"><img class="h-20" src="/logo.png">{title}</h1>
+      <h1 class="text-8 font-extrabold font-serif flex justify-center items-center">
+        <picture class="inline-flex shrink-0">
+          <source srcset="/logo.webp" type="image/webp" />
+          <img class="h-20 w-20 object-contain" src="/logo.png" alt="" width="80" height="80" decoding="async" />
+        </picture>
+        {title}
+      </h1>
     </a>
   </hgroup>
 
